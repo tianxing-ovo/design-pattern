@@ -3,7 +3,9 @@ package 创建型模式.建造者模式;
 import lombok.Data;
 import lombok.ToString;
 
-
+/**
+ * Builder注解实现
+ */
 @Data
 public class User {
     private Integer id;
