@@ -1,5 +1,8 @@
 package 行为型模式.策略模式;
 
+/**
+ * 应用场景: 支付系统 排序算法 图像处理 路由器设置 游戏开发
+ */
 public class Client {
     public static void main(String[] args) {
         // 买一送一
