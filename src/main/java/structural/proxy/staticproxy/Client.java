@@ -1,4 +1,4 @@
-package 结构型模式.代理模式.静态代理;
+package structural.proxy.staticproxy;
 
 /**
  * 客户端

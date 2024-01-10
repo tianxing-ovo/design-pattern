@@ -1,13 +1,17 @@
-package 结构型模式.代理模式.jdk动态代理;
+package structural.proxy.jdkproxy;
 
-import 结构型模式.代理模式.Subject;
+import lombok.SneakyThrows;
 
 /**
  * 客户端
  */
 public class Client {
+
+    @SneakyThrows
     public static void main(String[] args) {
-        Subject subject = ProxyFactory.getProxy();
-        subject.request();
+        Object proxy = ProxyFactory.getProxy();
+        // com.sun.proxy.$Proxy0
+        System.out.println(proxy.getClass().getName());
+        proxy.getClass().getMethod("request").invoke(proxy);
     }
 }
