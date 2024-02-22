@@ -6,10 +6,19 @@ package creational.builder;
 public abstract class Builder {
     protected Bike bike = new Bike();
 
-    public abstract void buildFrame();//构建车架
+    /**
+     * 构建车架
+     */
+    public abstract void buildFrame();
 
-    public abstract void buildSeat();//构建车座
+    /**
+     * 构建车座
+     */
+    public abstract void buildSeat();
 
-    public abstract Bike getBike();//构建自行车
+    /**
+     * 构建自行车
+     */
+    public abstract Bike getBike();
 
 }

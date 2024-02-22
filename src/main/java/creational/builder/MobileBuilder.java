@@ -1,7 +1,7 @@
 package creational.builder;
 
 /**
- * 具体构建类-构建摩拜单车
+ * 具体构建类
  */
 public class MobileBuilder extends Builder {
     @Override

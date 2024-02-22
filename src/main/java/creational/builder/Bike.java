@@ -4,11 +4,17 @@ import lombok.Data;
 import lombok.ToString;
 
 /**
- * 产品类-自行车
+ * 产品类
  */
 @Data
 @ToString
 public class Bike {
-    private String frame;//车架
-    private String seat;//车座
+    /**
+     * 车架
+     */
+    private String frame;
+    /**
+     * 车座
+     */
+    private String seat;
 }
