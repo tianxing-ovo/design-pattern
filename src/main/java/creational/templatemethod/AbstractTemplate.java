@@ -1,55 +1,33 @@
 package creational.templatemethod;
 
 /**
- * 抽象模板类(包括模板方法,抽象/基本方法,具体方法,钩子方法)
+ * 抽象模板类
  */
 public abstract class AbstractTemplate {
 
     /**
-     * 模板方法
+     * 模板方法(Template Method): 定义算法的骨架
      */
-    public final void cook() {
-        pourOil();
-        heatOil();
-        pourVegetable();
-        pourSauce();
-        fry();
+    public final void templateMethod() {
+        abstractMethod();
+        concreteMethod();
         hookMethod();
     }
 
     /**
-     * 具体方法
+     * 抽象方法(Abstract Method): 子类根据自己的特性提供具体实现
      */
-    public void pourOil() {
-        System.out.println("倒油");
+    public abstract void abstractMethod();
+
+    /**
+     * 具体方法(Concrete Method): 通用的代码
+     */
+    private void concreteMethod() {
+        System.out.println("具体方法");
     }
 
     /**
-     * 具体方法
-     */
-    public void heatOil() {
-        System.out.println("热油");
-    }
-
-    /**
-     * 具体方法
-     */
-    public void fry() {
-        System.out.println("翻炒");
-    }
-
-    /**
-     * 倒蔬菜(抽象方法)
-     */
-    public abstract void pourVegetable();
-
-    /**
-     * 放调料(抽象方法)
-     */
-    public abstract void pourSauce();
-
-    /**
-     * 钩子方法,子类可选择覆盖
+     * 钩子方法(Hook Method): 子类可选择覆盖
      */
     protected void hookMethod() {
     }

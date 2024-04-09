@@ -5,13 +5,8 @@ package creational.templatemethod;
  */
 public class ConcreteTemplate extends AbstractTemplate {
     @Override
-    public void pourVegetable() {
-        System.out.println("倒包菜");
-    }
-
-    @Override
-    public void pourSauce() {
-        System.out.println("放辣椒");
+    public void abstractMethod() {
+        System.out.println("抽象方法");
     }
 
     @Override
