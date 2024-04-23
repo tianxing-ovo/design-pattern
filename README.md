@@ -1,2 +1,5 @@
 # design-pattern
-23种设计模式Java代码
+
+## 介绍
+
+**Java实现23种设计模式**

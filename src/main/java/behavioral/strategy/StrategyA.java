@@ -1,7 +1,7 @@
 package behavioral.strategy;
 
 /**
- * 策略实现类
+ * Concrete Strategy(具体策略类)
  */
 public class StrategyA implements Strategy {
     @Override

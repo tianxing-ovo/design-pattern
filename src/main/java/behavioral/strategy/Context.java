@@ -1,14 +1,14 @@
 package behavioral.strategy;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Setter;
 
 /**
- * 售货员(context): 上下文
+ * Context(环境类)
  */
 @AllArgsConstructor
-@Data
-public class Salesman {
+@Setter
+public class Context {
     private Strategy strategy;
 
     /**
