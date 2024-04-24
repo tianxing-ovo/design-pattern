@@ -8,13 +8,13 @@ import java.util.ServiceLoader;
 public class Main {
     public static void main(String[] args) {
         // 买一送一
-        Context context = new Context(new StrategyA());
+        Context context = new Context(new ConcreteStrategyA());
         context.show();
         // 满200减50
-        context.setStrategy(new StrategyB());
+        context.setStrategy(new ConcreteStrategyB());
         context.show();
         // 满1000元加一元换购任意200元以下商品
-        context.show(new StrategyC());
+        context.show(new ConcreteStrategyC());
         // 使用SPI(Service Provider Interface)机制加载所有Strategy实现类实例
         ServiceLoader<Strategy> loader = ServiceLoader.load(Strategy.class);
         for (Strategy strategy : loader) {
