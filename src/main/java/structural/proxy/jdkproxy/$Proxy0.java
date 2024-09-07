@@ -33,9 +33,9 @@ public final class $Proxy0 extends Proxy implements Subject {
         super(invocationHandler);
     }
 
-    public void request() {
+    public String request() {
         try {
-            this.h.invoke(this, m3, null);
+            return (String) this.h.invoke(this, m3, null);
         } catch (Error | RuntimeException throwable) {
             throw throwable;
         } catch (Throwable throwable) {
