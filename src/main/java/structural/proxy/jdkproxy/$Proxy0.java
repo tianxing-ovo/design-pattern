@@ -33,6 +33,14 @@ public final class $Proxy0 extends Proxy implements Subject {
         super(invocationHandler);
     }
 
+    /**
+     * 1. 调用Proxy.newProxyInstance()将InvocationHandler绑定到代理对象proxy上
+     * 2. 调用proxy.request()
+     * 3. 调用InvocationHandler.invoke()
+     *
+     * @return {@link String }
+     */
+    @Override
     public String request() {
         try {
             return (String) this.h.invoke(this, m3, null);
