@@ -13,7 +13,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Citation implements Cloneable, Serializable {
-
+    // 序列化版本号: 防止类结构改变导致反序列化失败
+    private static final long serialVersionUID = 1L;
     private Integer id;
     private String name;
     private Student student;
