@@ -1,7 +1,8 @@
 package creational.prototype;
 
 /**
- * 浅拷贝: 值类型(基本数据类型)复制值;引用类型(类/接口/数组/枚举)复制引用对象地址
+ * 浅拷贝/浅克隆: 值类型(基本数据类型)复制值;引用类型(类/接口/数组/枚举)复制引用对象地址
+ * 实现方式: 实现Cloneable接口,重写clone方法
  */
 public class ShallowCopy {
     public static void main(String[] args) throws CloneNotSupportedException {

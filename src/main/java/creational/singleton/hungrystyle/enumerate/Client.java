@@ -6,6 +6,6 @@ package creational.singleton.hungrystyle.enumerate;
 public class Client {
     public static void main(String[] args) {
         // true
-        System.out.println(Singleton.INSTANCE==Singleton.INSTANCE);
+        System.out.println(Singleton.INSTANCE == Singleton.INSTANCE);
     }
 }

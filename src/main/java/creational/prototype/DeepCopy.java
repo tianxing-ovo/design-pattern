@@ -4,7 +4,8 @@ import lombok.SneakyThrows;
 import util.SerializationUtil;
 
 /**
- * 深拷贝
+ * 深拷贝/深克隆: 创建一个独立的副本,不会相互影响
+ * 实现方式: 实现Serializable接口,序列化
  */
 public class DeepCopy {
     @SneakyThrows
