@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 
 /**
  * 咖啡店
+ *
+ * @author tianxing
  */
 @AllArgsConstructor
 public class CoffeeStore {

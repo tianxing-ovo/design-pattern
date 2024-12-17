@@ -2,6 +2,8 @@ package creational.builder;
 
 /**
  * 具体构建类
+ *
+ * @author tianxing
  */
 public class OfoBuilder extends Builder {
     @Override

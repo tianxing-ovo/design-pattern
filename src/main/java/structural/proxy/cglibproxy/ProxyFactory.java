@@ -8,6 +8,11 @@ import structural.proxy.RealSubject;
 
 import java.lang.reflect.Method;
 
+/**
+ * 代理工厂
+ *
+ * @author tianxing
+ */
 public class ProxyFactory implements MethodInterceptor {
 
     /**

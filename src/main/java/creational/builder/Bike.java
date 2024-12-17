@@ -5,6 +5,8 @@ import lombok.ToString;
 
 /**
  * 产品类
+ *
+ * @author tianxing
  */
 @Data
 @ToString

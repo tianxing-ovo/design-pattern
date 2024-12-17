@@ -1,7 +1,10 @@
 package creational.builder;
 
 
-public class Main {
+/**
+ * @author tianxing
+ */
+public class Client {
     public static void main(String[] args) {
         // Bike(frame=碳纤维车架, seat=真皮车座)
         System.out.println(new Director(new MobileBuilder()).construct());

@@ -5,6 +5,8 @@ import structural.proxy.RealSubject;
 
 /**
  * CGLib(Code Generation Library)动态代理: 适用于任何类(生成的代理类是目标类的子类)
+ *
+ * @author tianxing
  */
 public class Client {
 

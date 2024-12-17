@@ -8,20 +8,23 @@ import java.lang.reflect.Proxy;
 import java.lang.reflect.UndeclaredThrowableException;
 
 /**
- * 代理类
+ * 运行时动态生成的代理类
+ *
+ * @author tianxing
  */
-public final class $Proxy0 extends Proxy implements Subject {
-    private static final Method m1;
-    private static final Method m2;
-    private static final Method m3;
-    private static final Method m0;
+public final class Proxy0 extends Proxy implements Subject {
+    private static final long serialVersionUID = -2049481713298842790L;
+    private static final Method M1;
+    private static final Method M2;
+    private static final Method M3;
+    private static final Method M0;
 
     static {
         try {
-            m1 = Class.forName("java.lang.Object").getMethod("equals", Class.forName("java.lang.Object"));
-            m2 = Class.forName("java.lang.Object").getMethod("toString");
-            m3 = Class.forName("structural.proxy.Subject").getMethod("request");
-            m0 = Class.forName("java.lang.Object").getMethod("hashCode");
+            M1 = Class.forName("java.lang.Object").getMethod("equals", Class.forName("java.lang.Object"));
+            M2 = Class.forName("java.lang.Object").getMethod("toString");
+            M3 = Class.forName("structural.proxy.Subject").getMethod("request");
+            M0 = Class.forName("java.lang.Object").getMethod("hashCode");
         } catch (NoSuchMethodException noSuchMethodException) {
             throw new NoSuchMethodError(noSuchMethodException.getMessage());
         } catch (ClassNotFoundException classNotFoundException) {
@@ -29,7 +32,7 @@ public final class $Proxy0 extends Proxy implements Subject {
         }
     }
 
-    public $Proxy0(InvocationHandler invocationHandler) {
+    public Proxy0(InvocationHandler invocationHandler) {
         super(invocationHandler);
     }
 
@@ -43,7 +46,7 @@ public final class $Proxy0 extends Proxy implements Subject {
     @Override
     public String request() {
         try {
-            return (String) this.h.invoke(this, m3, null);
+            return (String) this.h.invoke(this, M3, null);
         } catch (Error | RuntimeException throwable) {
             throw throwable;
         } catch (Throwable throwable) {
@@ -51,9 +54,10 @@ public final class $Proxy0 extends Proxy implements Subject {
         }
     }
 
+    @Override
     public boolean equals(Object object) {
         try {
-            return (Boolean) this.h.invoke(this, m1, new Object[]{object});
+            return (Boolean) this.h.invoke(this, M1, new Object[]{object});
         } catch (Error | RuntimeException throwable) {
             throw throwable;
         } catch (Throwable throwable) {
@@ -61,9 +65,10 @@ public final class $Proxy0 extends Proxy implements Subject {
         }
     }
 
+    @Override
     public String toString() {
         try {
-            return (String) this.h.invoke(this, m2, null);
+            return (String) this.h.invoke(this, M2, null);
         } catch (Error | RuntimeException throwable) {
             throw throwable;
         } catch (Throwable throwable) {
@@ -71,9 +76,10 @@ public final class $Proxy0 extends Proxy implements Subject {
         }
     }
 
+    @Override
     public int hashCode() {
         try {
-            return (Integer) this.h.invoke(this, m0, null);
+            return (Integer) this.h.invoke(this, M0, null);
         } catch (Error | RuntimeException throwable) {
             throw throwable;
         } catch (Throwable throwable) {

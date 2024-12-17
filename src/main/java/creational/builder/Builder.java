@@ -2,6 +2,8 @@ package creational.builder;
 
 /**
  * 抽象构建类
+ *
+ * @author tianxing
  */
 public abstract class Builder {
     protected Bike bike = new Bike();

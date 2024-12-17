@@ -6,6 +6,8 @@ import java.nio.file.Path;
 
 /**
  * 序列化工具类
+ *
+ * @author tianxing
  */
 public class SerializationUtil {
 

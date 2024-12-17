@@ -2,6 +2,8 @@ package structural.proxy;
 
 /**
  * 真实主题
+ *
+ * @author tianxing
  */
 public class RealSubject implements Subject {
 

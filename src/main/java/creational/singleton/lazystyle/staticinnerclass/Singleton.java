@@ -1,5 +1,8 @@
 package creational.singleton.lazystyle.staticinnerclass;
 
+/**
+ * @author tianxing
+ */
 public class Singleton {
     // 私有构造方法
     private Singleton() {

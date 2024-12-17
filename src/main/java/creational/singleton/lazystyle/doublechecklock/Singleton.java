@@ -1,6 +1,10 @@
 package creational.singleton.lazystyle.doublechecklock;
 
 
+/**
+ * @author tianxing
+ */
+@SuppressWarnings("InstantiationOfUtilityClass")
 public class Singleton {
 
     // volatile禁止指令重排序,保证实例的完全初始化
@@ -17,8 +21,9 @@ public class Singleton {
     public static Singleton getInstance() {
         // 快速检查instance是否已经初始化,避免不必要的同步开销
         if (instance == null) {
+            // 防止多个线程同时进入
             synchronized (Singleton.class) {
-                // 防止多个线程进入同步块创建多个实例
+                // 防止在当前线程等待进入同步块时其他线程已经创建了实例
                 if (instance == null) {
                     // 指令重排序: 赋值 -> 实例初始化
                     instance = new Singleton();

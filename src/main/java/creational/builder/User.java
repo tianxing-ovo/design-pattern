@@ -5,6 +5,8 @@ import lombok.ToString;
 
 /**
  * Builder注解实现
+ *
+ * @author tianxing
  */
 @Data
 public class User {
@@ -21,6 +23,7 @@ public class User {
     public static UserBuilder builder() {
         return new UserBuilder();
     }
+
     @ToString
     public static class UserBuilder {
         private Integer id;

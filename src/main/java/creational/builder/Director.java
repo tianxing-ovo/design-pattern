@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 
 /**
  * 指挥者类
+ *
+ * @author tianxing
  */
 @AllArgsConstructor
 public class Director {

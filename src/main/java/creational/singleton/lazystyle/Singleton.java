@@ -1,6 +1,10 @@
 package creational.singleton.lazystyle;
 
 
+/**
+ * @author tianxing
+ */
+@SuppressWarnings("InstantiationOfUtilityClass")
 public class Singleton {
     private static Singleton instance;
 
