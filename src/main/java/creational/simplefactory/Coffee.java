@@ -2,6 +2,8 @@ package creational.simplefactory;
 
 /**
  * 抽象产品-咖啡
+ *
+ * @author tianxing
  */
 public abstract class Coffee {
 
