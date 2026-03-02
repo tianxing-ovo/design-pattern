@@ -6,8 +6,11 @@ package creational.singleton.hungrystyle.enumerate;
  * @author tianxing
  */
 public class Client {
+    @SuppressWarnings("all")
     public static void main(String[] args) {
+        Singleton s1 = Singleton.INSTANCE;
+        Singleton s2 = Singleton.INSTANCE;
         // true
-        System.out.println(Singleton.INSTANCE == Singleton.INSTANCE);
+        System.out.println(s1 == s2);
     }
 }

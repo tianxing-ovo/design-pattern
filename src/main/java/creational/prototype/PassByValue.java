@@ -27,7 +27,13 @@ public class PassByValue {
     /**
      * 基本数据类型: 传递值的副本
      * 引用类型(数组/对象): 传递引用的副本
+     *
+     * @param b       基本数据类型
+     * @param s2      引用类型(字符串)
+     * @param student 引用类型(对象)
+     * @param arr     引用类型(数组)
      */
+    @SuppressWarnings("all")
     public static void modify(int b, String s2, Student student, int[] arr) {
         // 不会改变实参的值
         b = 2;
