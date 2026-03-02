@@ -1,5 +1,6 @@
 package principle.LSP;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -8,7 +9,8 @@ import lombok.Data;
  * @author tianxing
  */
 @Data
-public class Square implements Quadrilateral{
+@AllArgsConstructor
+public class Square implements Quadrilateral {
 
     private double side;
 
