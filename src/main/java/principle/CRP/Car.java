@@ -2,6 +2,8 @@ package principle.CRP;
 
 /**
  * 汽车
+ *
+ * @author tianxing
  */
 public abstract class Car {
 

@@ -2,6 +2,8 @@ package creational.singleton.hungrystyle.staticblock;
 
 /**
  * 静态代码块
+ *
+ * @author tianxing
  */
 public class Singleton {
     private static final Singleton INSTANCE;

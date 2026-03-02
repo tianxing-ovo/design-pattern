@@ -2,6 +2,8 @@ package principle.OCP;
 
 /**
  * 默认皮肤
+ *
+ * @author tianxing
  */
 public class DefaultSkin extends AbstractSkin {
 

@@ -5,6 +5,8 @@ import lombok.Getter;
 
 /**
  * 粉丝
+ *
+ * @author tianxing
  */
 @AllArgsConstructor
 @Getter

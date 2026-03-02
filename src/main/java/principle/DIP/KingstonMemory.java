@@ -2,6 +2,8 @@ package principle.DIP;
 
 /**
  * 金士顿内存
+ *
+ * @author tianxing
  */
 public class KingstonMemory implements Memory {
 

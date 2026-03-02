@@ -7,6 +7,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+/**
+ * @author tianxing
+ */
 public class ProxyFactory {
 
     private final static RealSubject realSubject = new RealSubject();

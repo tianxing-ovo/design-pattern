@@ -2,6 +2,8 @@ package principle.CRP;
 
 /**
  * 汽油车
+ *
+ * @author tianxing
  */
 public class PetrolCar extends Car {
 

@@ -4,6 +4,8 @@ import lombok.Setter;
 
 /**
  * 经纪人
+ *
+ * @author tianxing
  */
 @Setter
 public class Agent {

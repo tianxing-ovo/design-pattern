@@ -5,6 +5,8 @@ import lombok.Getter;
 
 /**
  * 请假条
+ *
+ * @author tianxing
  */
 @Getter
 @AllArgsConstructor

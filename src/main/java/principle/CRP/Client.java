@@ -1,5 +1,8 @@
 package principle.CRP;
 
+/**
+ * @author tianxing
+ */
 public class Client {
     public static void main(String[] args) {
         Red red = new Red();

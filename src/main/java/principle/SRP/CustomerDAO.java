@@ -9,6 +9,8 @@ import java.util.List;
 
 /**
  * 负责操作数据库中的Customer表
+ *
+ * @author tianxing
  */
 @AllArgsConstructor
 public class CustomerDAO {

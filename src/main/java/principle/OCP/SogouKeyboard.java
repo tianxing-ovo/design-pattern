@@ -6,6 +6,8 @@ import lombok.Setter;
 
 /**
  * 搜狗输入法
+ *
+ * @author tianxing
  */
 @AllArgsConstructor
 @NoArgsConstructor

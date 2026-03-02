@@ -2,6 +2,8 @@ package principle.CRP;
 
 /**
  * 电动汽车
+ *
+ * @author tianxing
  */
 public class ElectricCar extends Car {
 

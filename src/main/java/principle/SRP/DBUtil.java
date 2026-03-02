@@ -8,6 +8,8 @@ import java.util.concurrent.Executor;
 
 /**
  * 负责连接数据库
+ *
+ * @author tianxing
  */
 public class DBUtil {
 

@@ -1,5 +1,8 @@
 package principle.ISP;
 
+/**
+ * @author tianxing
+ */
 public class Client {
     public static void main(String[] args) {
         SafetyDoor safetyDoor = new SafetyDoor();

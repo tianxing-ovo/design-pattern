@@ -2,6 +2,8 @@ package behavioral.chainofresponsibility;
 
 /**
  * 抽象处理者
+ *
+ * @author tianxing
  */
 public abstract class Handler {
 

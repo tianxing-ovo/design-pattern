@@ -1,5 +1,8 @@
 package creational.singleton.hungrystyle.staticblock;
 
+/**
+ * @author tianxing
+ */
 public class Client {
 
     public static void main(String[] args) {

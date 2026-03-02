@@ -2,6 +2,9 @@ package principle.SRP;
 
 import java.sql.SQLException;
 
+/**
+ * @author tianxing
+ */
 public class Client {
     public static void main(String[] args) throws SQLException {
         DBUtil util = new DBUtil();

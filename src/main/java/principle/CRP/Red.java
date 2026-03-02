@@ -2,6 +2,8 @@ package principle.CRP;
 
 /**
  * 红色
+ *
+ * @author tianxing
  */
 public class Red implements Color {
 

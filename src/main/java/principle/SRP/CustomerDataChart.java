@@ -6,6 +6,8 @@ import java.sql.SQLException;
 
 /**
  * 负责图表的生成和显示
+ *
+ * @author tianxing
  */
 @AllArgsConstructor
 public class CustomerDataChart {

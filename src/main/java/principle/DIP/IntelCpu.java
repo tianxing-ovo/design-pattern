@@ -2,6 +2,8 @@ package principle.DIP;
 
 /**
  * 英特尔处理器
+ *
+ * @author tianxing
  */
 public class IntelCpu implements Cpu {
 

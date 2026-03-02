@@ -2,6 +2,8 @@ package principle.ISP;
 
 /**
  * 防盗
+ *
+ * @author tianxing
  */
 public interface AntiTheft {
     default void antiTheft() {

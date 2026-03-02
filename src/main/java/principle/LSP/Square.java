@@ -4,6 +4,8 @@ import lombok.Data;
 
 /**
  * 正方形
+ *
+ * @author tianxing
  */
 @Data
 public class Square implements Quadrilateral{

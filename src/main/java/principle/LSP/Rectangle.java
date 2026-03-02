@@ -6,6 +6,8 @@ import lombok.ToString;
 
 /**
  * 长方形
+ *
+ * @author tianxing
  */
 @Setter
 @AllArgsConstructor

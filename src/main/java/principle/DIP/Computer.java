@@ -4,6 +4,8 @@ import lombok.Data;
 
 /**
  * 电脑
+ *
+ * @author tianxing
  */
 @Data
 public class Computer {

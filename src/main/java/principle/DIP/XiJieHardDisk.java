@@ -2,6 +2,8 @@ package principle.DIP;
 
 /**
  * 希捷硬盘
+ *
+ * @author tianxing
  */
 public class XiJieHardDisk implements HardDisk {
 

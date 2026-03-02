@@ -1,5 +1,8 @@
 package principle.OCP;
 
+/**
+ * @author tianxing
+ */
 public class Client {
     public static void main(String[] args) {
         SogouKeyboard sogouKeyboard = new SogouKeyboard(new DefaultSkin());

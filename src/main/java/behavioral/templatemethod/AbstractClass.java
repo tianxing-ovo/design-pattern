@@ -2,6 +2,8 @@ package behavioral.templatemethod;
 
 /**
  * Abstract Class(抽象类)
+ *
+ * @author tianxing
  */
 public abstract class AbstractClass {
 

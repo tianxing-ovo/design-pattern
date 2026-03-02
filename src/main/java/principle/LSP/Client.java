@@ -1,5 +1,8 @@
 package principle.LSP;
 
+/**
+ * @author tianxing
+ */
 public class Client {
     public static void main(String[] args) {
         // 创建长方形对象

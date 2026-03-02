@@ -2,6 +2,8 @@ package behavioral.chainofresponsibility;
 
 /**
  * 小组长(具体处理者)
+ *
+ * @author tianxing
  */
 public class GroupLeader extends Handler {
     @Override

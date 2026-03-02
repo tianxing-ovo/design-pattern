@@ -2,6 +2,8 @@ package creational.singleton.hungrystyle.staticmember;
 
 /**
  * 客户端
+ *
+ * @author tianxing
  */
 public class Client {
 

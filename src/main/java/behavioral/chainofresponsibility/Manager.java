@@ -2,6 +2,8 @@ package behavioral.chainofresponsibility;
 
 /**
  * 经理(具体处理者)
+ *
+ * @author tianxing
  */
 public class Manager extends Handler {
     @Override

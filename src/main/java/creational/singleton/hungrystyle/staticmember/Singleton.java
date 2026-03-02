@@ -2,6 +2,8 @@ package creational.singleton.hungrystyle.staticmember;
 
 /**
  * 静态成员变量
+ *
+ * @author tianxing
  */
 public class Singleton {
 

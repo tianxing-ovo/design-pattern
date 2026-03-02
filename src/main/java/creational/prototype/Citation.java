@@ -8,6 +8,8 @@ import java.io.Serializable;
 
 /**
  * 奖状
+ *
+ * @author tianxing
  */
 @Data
 @AllArgsConstructor

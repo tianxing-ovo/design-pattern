@@ -2,6 +2,8 @@ package principle.OCP;
 
 /**
  * 云水蓝皮肤
+ *
+ * @author tianxing
  */
 public class BlueSkin extends AbstractSkin{
 

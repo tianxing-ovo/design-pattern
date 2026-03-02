@@ -5,6 +5,8 @@ import structural.proxy.Subject;
 
 /**
  * JDK动态代理: 适用于实现了接口的类(生成的代理类实现了相同的接口)
+ *
+ * @author tianxing
  */
 public class Client {
 

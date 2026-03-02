@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * 默认实现类
+ *
+ * @author tianxing
  */
 public class ApplicationFilterChain implements FilterChain {
 

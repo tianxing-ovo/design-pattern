@@ -2,6 +2,8 @@ package principle.CRP;
 
 /**
  * 白色
+ *
+ * @author tianxing
  */
 public class White implements Color {
 

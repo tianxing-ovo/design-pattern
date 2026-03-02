@@ -1,5 +1,8 @@
 package principle.LOD;
 
+/**
+ * @author tianxing
+ */
 public class Client {
     public static void main(String[] args) {
         Agent agent = new Agent();

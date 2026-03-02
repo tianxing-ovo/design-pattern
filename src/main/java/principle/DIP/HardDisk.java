@@ -2,6 +2,8 @@ package principle.DIP;
 
 /**
  * 硬盘
+ *
+ * @author tianxing
  */
 public interface HardDisk {
 

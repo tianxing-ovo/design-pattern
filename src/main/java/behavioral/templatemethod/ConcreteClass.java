@@ -2,6 +2,8 @@ package behavioral.templatemethod;
 
 /**
  * Concrete Class(具体子类)
+ *
+ * @author tianxing
  */
 public class ConcreteClass extends AbstractClass {
 

@@ -5,6 +5,8 @@ import structural.proxy.Subject;
 
 /**
  * 代理类
+ *
+ * @author tianxing
  */
 public class Proxy implements Subject {
 

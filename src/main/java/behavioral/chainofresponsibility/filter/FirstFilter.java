@@ -2,6 +2,8 @@ package behavioral.chainofresponsibility.filter;
 
 /**
  * 第一个过滤器
+ *
+ * @author tianxing
  */
 public class FirstFilter implements Filter {
     @Override
