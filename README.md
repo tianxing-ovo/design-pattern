@@ -32,13 +32,13 @@ mvn exec:java -Dexec.mainClass="creational.simplefactory.CoffeeStore"
 
 |                    原则                     |              英文               |           说明           |                                      示例                                       |
 | :-----------------------------------------: | :-----------------------------: | :----------------------: | :-----------------------------------------------------------------------------: |
-| [单一职责原则](src/main/java/principle/SRP) | Single Responsibility Principle |   一个类只负责一项职责   | `DBUtil` 负责连接、`CustomerDAO` 负责数据操作、`CustomerDataChart` 负责图表展示 |
-|   [开闭原则](src/main/java/principle/OCP)   |      Open-Closed Principle      |  对扩展开放，对修改关闭  |                搜狗键盘通过 `AbstractSkin` 抽象类支持扩展新皮肤                 |
-| [里氏替换原则](src/main/java/principle/LSP) |  Liskov Substitution Principle  | 子类能替换父类且行为一致 |                 正方形不应继承长方形，改用 `Quadrilateral` 接口                 |
-| [接口隔离原则](src/main/java/principle/ISP) | Interface Segregation Principle |  接口应最小化，避免臃肿  |          安全门拆分为 `AntiTheft`、`Fireproof`、`Waterproof` 三个接口           |
-| [依赖倒置原则](src/main/java/principle/DIP) | Dependency Inversion Principle  |   依赖抽象而非具体实现   |                `Computer` 依赖 `Cpu`、`Memory`、`HardDisk` 接口                 |
-|  [迪米特法则](src/main/java/principle/LOD)  |         Law of Demeter          |  最少知识原则，降低耦合  |                明星通过 `Agent` 经纪人与 `Fans`、`Company` 交互                 |
-| [合成复用原则](src/main/java/principle/CRP) |    Composite Reuse Principle    |   优先使用组合而非继承   |                         `Car` 使用 `Color` 组合替代继承                         |
+| [单一职责原则](src/main/java/principle/srp) | Single Responsibility Principle |   一个类只负责一项职责   | `DBUtil` 负责连接、`CustomerDAO` 负责数据操作、`CustomerDataChart` 负责图表展示 |
+|   [开闭原则](src/main/java/principle/ocp)   |      Open-Closed Principle      |  对扩展开放，对修改关闭  |                搜狗键盘通过 `AbstractSkin` 抽象类支持扩展新皮肤                 |
+| [里氏替换原则](src/main/java/principle/lsp) |  Liskov Substitution Principle  | 子类能替换父类且行为一致 |                 正方形不应继承长方形，改用 `Quadrilateral` 接口                 |
+| [接口隔离原则](src/main/java/principle/isp) | Interface Segregation Principle |  接口应最小化，避免臃肿  |          安全门拆分为 `AntiTheft`、`Fireproof`、`Waterproof` 三个接口           |
+| [依赖倒置原则](src/main/java/principle/dip) | Dependency Inversion Principle  |   依赖抽象而非具体实现   |                `Computer` 依赖 `Cpu`、`Memory`、`HardDisk` 接口                 |
+|  [迪米特法则](src/main/java/principle/lod)  |         Law of Demeter          |  最少知识原则，降低耦合  |                明星通过 `Agent` 经纪人与 `Fans`、`Company` 交互                 |
+| [合成复用原则](src/main/java/principle/crp) |    Composite Reuse Principle    |   优先使用组合而非继承   |                         `Car` 使用 `Color` 组合替代继承                         |
 
 ## 🏗️ 设计模式
 
@@ -52,7 +52,7 @@ mvn exec:java -Dexec.mainClass="creational.simplefactory.CoffeeStore"
 |   [建造者模式](src/main/java/creational/builder)   |    分步构建复杂对象    | `Director` + `Builder` 构建 `Bike`；手写 `UserBuilder` 链式调用 |
 |   [原型模式](src/main/java/creational/prototype)   |    通过克隆创建对象    |           浅拷贝（`Cloneable`）与深拷贝（序列化）对比           |
 
-#### 🔒 单例模式 — 5 种实现
+#### 🔒 单例模式 — 6 种实现
 
 |                                  实现方式                                   | 线程安全 | 懒加载 | 防反射 | 防反序列化 |
 | :-------------------------------------------------------------------------: | :------: | :----: | :----: | :--------: |
@@ -114,13 +114,13 @@ design-pattern
 │   │       ├── jdkproxy/              # JDK动态代理
 │   │       └── cglibproxy/            # CGLib动态代理
 │   ├── principle/                     # 设计原则
-│   │   ├── SRP/                       # 单一职责原则
-│   │   ├── OCP/                       # 开闭原则
-│   │   ├── LSP/                       # 里氏替换原则
-│   │   ├── ISP/                       # 接口隔离原则
-│   │   ├── DIP/                       # 依赖倒置原则
-│   │   ├── LOD/                       # 迪米特法则
-│   │   └── CRP/                       # 合成复用原则
+│   │   ├── srp/                       # 单一职责原则
+│   │   ├── ocp/                       # 开闭原则
+│   │   ├── lsp/                       # 里氏替换原则
+│   │   ├── isp/                       # 接口隔离原则
+│   │   ├── dip/                       # 依赖倒置原则
+│   │   ├── lod/                       # 迪米特法则
+│   │   └── crp/                       # 合成复用原则
 │   └── util/                          # 工具类
 │       └── SerializationUtil.java     # 序列化/反序列化工具
 └── src/test/java                      # 单元测试

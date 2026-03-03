@@ -1,0 +1,14 @@
+package principle.crp;
+
+/**
+ * 红色
+ *
+ * @author tianxing
+ */
+public class Red implements Color {
+
+    @Override
+    public String getColor() {
+        return "红色";
+    }
+}
